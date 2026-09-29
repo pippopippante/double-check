@@ -1,0 +1,110 @@
+{
+ "duration_api_ms": 33867,
+ "stop_reason": "stop_sequence",
+ "session_id": "0de2d167-9577-45e1-9716-7df714a6dc69",
+ "total_cost_usd": 0.5013984,
+ "usage": {
+  "input_tokens": 16,
+  "cache_creation_input_tokens": 45737,
+  "cache_read_input_tokens": 334892,
+  "output_tokens": 3423,
+  "output_tokens_details": {
+   "thinking_tokens": 851
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 45737,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 544,
+    "cache_read_input_tokens": 54966,
+    "cache_creation_input_tokens": 6023,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 6023
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "modelUsage": {
+  "claude-opus-5-5": {
+   "inputTokens": 16,
+   "outputTokens": 3423,
+   "cacheReadInputTokens": 334892,
+   "cacheCreationInputTokens": 45737,
+   "webSearchRequests": 0,
+   "costUSD": 0.5013984,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 851,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [
+  {
+   "tool_name": "PowerShell",
+   "tool_use_id": "toolu_011GH3KRBDU2n9ErGbcJ33A4",
+   "tool_input": {
+    "command": "Add-Type -AssemblyName System.Drawing\n$d=\"~\\AppData\\Local\\Temp\\am\"; New-Item -ItemType Directory -Force $d | Out-Null\nfunction crop($src,$y,$h,$out){ $i=[System.Drawing.Image]::FromFile($src); $h=[Math]::Min($h,$i.Height-$y); $b=New-Object System.Drawing.Bitmap $i.Width,$h; $g=[System.Drawing.Graphics]::FromImage($b); $g.DrawImage($i,(New-Object System.Drawing.Rectangle 0,0,$i.Width,$h),(New-Object System.Drawing.Rectangle 0,$y,$i.Width,$h),[System.Drawing.GraphicsUnit]::Pixel); $b.Save(\"$d\\$out\"); $g.Dispose(); $b.Dispose(); $i.Dispose() }\n$s=\"~\\Desktop\\skill\\10siti\\abbigliamento\"\ncrop \"$s\\00-home-telefono.jpg\" 0 1700 m0.png\ncrop \"$s\\00-home-desktop.jpg\" 0 900 d0.png\ncrop \"$s\\01-categoria-telefono.jpg\" 0 1700 c0.png\ncrop \"$s\\00-home-desktop.jpg\" 1700 1300 d1.png\nls $d",
+    "description": "Crop screenshots for detailed viewing"
+   }
+  },
+  {
+   "tool_name": "Bash",
+   "tool_use_id": "toolu_01F3VkLmK6DgD1JWkXrtzWqM",
+   "tool_input": {
+    "command": "mkdir -p /tmp/am && python -c \"\nfrom PIL import Image\ndef c(f,y,h,o):\n    i=Image.open(f); i.crop((0,y,i.width,min(y+h,i.height))).save('/tmp/am/'+o)\nc('00-home-telefono.jpg',0,1700,'m0.png')\nc('00-home-desktop.jpg',0,900,'d0.png')\nc('01-categoria-telefono.jpg',0,1700,'c0.png')\nc('00-home-desktop.jpg',1700,1300,'d1.png')\nprint(Image.open('01-categoria-desktop.jpg').size)\n\" && cygpath -w /tmp/am",
+    "description": "Crop screenshots with Python PIL"
+   }
+  }
+ ],
+ "terminal_reason": "api_error",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": true,
+ "num_turns": 23,
+ "subtype": "success",
+ "api_error_status": 429,
+ "result": "You've hit your session limit · resets 4:50am (Europe/Rome)",
+ "type": "result",
+ "duration_ms": 36736,
+ "uuid": "91383a83-30a0-4199-af36-663b56813e37",
+ "queued_turn_count": 0,
+ "result_index": 0
+}

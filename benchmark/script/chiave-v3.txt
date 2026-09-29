@@ -1,0 +1,3 @@
+moda-multimarca A=con B=senza C=con-v3
+enoteca A=senza B=con C=con-v3
+cantina A=con B=con-v3 C=senza

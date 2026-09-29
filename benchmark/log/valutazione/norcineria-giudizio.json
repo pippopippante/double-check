@@ -1,0 +1,110 @@
+{
+ "duration_api_ms": 94805,
+ "stop_reason": "stop_sequence",
+ "session_id": "d43054a2-6b39-4566-b4c7-639465648ebd",
+ "total_cost_usd": 0.8768231999999998,
+ "usage": {
+  "input_tokens": 22,
+  "cache_creation_input_tokens": 68882,
+  "cache_read_input_tokens": 631596,
+  "output_tokens": 9968,
+  "output_tokens_details": {
+   "thinking_tokens": 3492
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 68882,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "not_available",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 4259,
+    "cache_read_input_tokens": 82250,
+    "cache_creation_input_tokens": 1883,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1883
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard"
+ },
+ "modelUsage": {
+  "claude-opus-5-5": {
+   "inputTokens": 22,
+   "outputTokens": 9968,
+   "cacheReadInputTokens": 631596,
+   "cacheCreationInputTokens": 68882,
+   "webSearchRequests": 0,
+   "costUSD": 0.8768231999999998,
+   "contextWindow": 1000000,
+   "maxOutputTokens": 128000,
+   "thinkingTokens": 3492,
+   "canonicalModel": "claude-opus-5-5",
+   "provider": "firstParty",
+   "costBasis": "list"
+  }
+ },
+ "permission_denials": [
+  {
+   "tool_name": "Bash",
+   "tool_use_id": "toolu_017oFoqf7Y4oVzWDB1odtXCN",
+   "tool_input": {
+    "command": "cd \"~/Desktop/skill/10siti/norcineria\" && for f in *.txt; do echo \"=== $f\"; cat \"$f\"; done",
+    "description": "Print all page texts"
+   }
+  },
+  {
+   "tool_name": "Bash",
+   "tool_use_id": "toolu_011t7hX2su8WyHm15HV4LKj9",
+   "tool_input": {
+    "command": "cd \"~/Desktop/skill/10siti/norcineria\" && echo \"--- tel links per file\"; grep -c 'href=\"tel:' *.html; echo \"--- home hrefs buttons\"; grep -oE 'href=\"[^\"]*\"[^>]*>[^<]{0,60}(allevamento|Allevamento|ALLEVAMENTO|Unti|PRODOTTI)' 00-home.html | head; grep -oiE '<a[^>]*(allevamento|unti|scopri i nostri)[^<]*' 00-home.html | head; echo \"--- orderby selected\"; grep -oE '<option value=\"[a-z-]*\"[^>]*selected[^>]*>[^<]*' 04-categoria.html; echo \"--- aggregateRating\"; grep -c aggregateRating 0[1-3]-prodotto.html; echo \"--- meta desc / title\"; grep -oE '<title>[^<]*|name=\"description\" content=\"[^\"]*\"|og:title\" content=\"[^\"]*\"' 01-prodotto.html 02-prodotto.html",
+    "description": "Check tel links, home buttons, sorting, markup"
+   }
+  }
+ ],
+ "terminal_reason": "api_error",
+ "fast_mode_state": "off",
+ "fast_mode_disabled_reason": "sdk_opt_in_required",
+ "subagent_stats": {
+  "spawned": 0,
+  "requested": {
+   "background": 0,
+   "foreground": 0,
+   "unset": 0
+  },
+  "started_in_background": 0,
+  "max_depth": 0,
+  "spawned_by_subagents": 0,
+  "completed": 0,
+  "failed": 0,
+  "killed": {
+   "parent": 0,
+   "user": 0,
+   "system": 0
+  },
+  "refused": {
+   "depth_limit": 0,
+   "concurrency_limit": 0,
+   "budget": 0
+  },
+  "by_type": {}
+ },
+ "is_error": true,
+ "num_turns": 26,
+ "subtype": "success",
+ "api_error_status": 429,
+ "result": "You've hit your session limit · resets 5:20pm (Europe/Rome)",
+ "type": "result",
+ "duration_ms": 100835,
+ "uuid": "c08024ee-ccd6-45b5-9261-19d6b1dc1eeb",
+ "queued_turn_count": 0,
+ "result_index": 0
+}

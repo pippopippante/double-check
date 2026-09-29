@@ -1,0 +1,10 @@
+alimentari A=con B=senza
+abbigliamento A=con B=senza
+cantina A=senza B=con
+enoteca A=con B=senza
+norcineria A=senza B=con
+prodotti-tipici A=senza B=con
+hotel-ristorante A=con B=senza
+frantoio A=senza B=con
+moda-multimarca A=con B=senza
+gioielleria A=con B=senza

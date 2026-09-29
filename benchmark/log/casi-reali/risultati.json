@@ -1,0 +1,270 @@
+[
+ {
+  "id": "01",
+  "commit": "1ffe42e",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 1, sessione 21",
+  "minuti": 0.1,
+  "token": 29410,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Nella scheda prodotto da telefono abbiamo appena fatto che il pulsante Aggiungi in basso si posa al posto di quello della scheda e torna con le altre barre scorrendo in su. come sarebbe meglio impaginare la pagina prodotto? e' scomoda con sto pulsante che compare e poi scompare"
+ },
+ {
+  "id": "02",
+  "commit": "32910e3",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 2, sessione 25",
+  "minuti": 0.1,
+  "token": 29460,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Gli occhielli sopra i titoli (SPOLETO, UMBRIA in home, FATTI GUIDARE / IDEE REGALO / PICCOLA SPESA nelle selezioni, LA NOSTRA STORIA nella storia) li teniamo o li togliamo? e' un dettaglio cosi piccolo che non saprei"
+ },
+ {
+  "id": "03",
+  "commit": "fe82071",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 3, sessione 25",
+  "minuti": 0.1,
+  "token": 29522,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "La barra annuncio in cima a ogni pagina da telefono l'avevo chiesta io un paio di settimane fa ma adesso mi da un po fastidio. secondo te puo dare fastidio o rovinare l'esperienza a chi visita?"
+ },
+ {
+  "id": "04",
+  "commit": "122c2aa",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 4, sessione 25",
+  "minuti": 0.1,
+  "token": 29576,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Stiamo lavorando al menu da computer: la barra in alto ha solo gli scaffali e volevamo aggiungere Fatti guidare, Idee regalo e La nostra storia. Hai provato due versioni: A, una tendina \"Bottega\" con dentro gli scaffali, e B, una seconda riga sotto la barra con Fatti guidare · Idee regalo · La nostra storia. la a non mi convince e la b e' terribile trova un altra strada"
+ },
+ {
+  "id": "05",
+  "commit": "2eb27c5",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 5, sessione 25",
+  "minuti": 0.1,
+  "token": 29440,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Abbiamo appena rifatto la home dal disegno nuovo. il riquadro delle specialita' e' un po troppo grande? non darmi per forza ragione"
+ },
+ {
+  "id": "06",
+  "commit": "4d91976",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 6, sessione 24",
+  "minuti": 0.1,
+  "token": 29348,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Nella visita guidata (guida.html) il carrello si chiama cesto, nel resto del sito carrello. secondo te dargli un nome diverso dal solito funziona o no?"
+ },
+ {
+  "id": "07",
+  "commit": "6226cdb",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 7, sessione 23",
+  "minuti": 0.1,
+  "token": 29346,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Passiamo alle etichette: occhielli, briciole di pane, etichette dei prodotti e sottotitolo del logo sono in Courier e non mi convince. dimmi quale e' il font migliore da mettere al suo posto"
+ },
+ {
+  "id": "08",
+  "commit": "aa4e71f",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 8, sessione 23",
+  "minuti": 0.1,
+  "token": 44112,
+  "strumenti": [
+   "Grep",
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Nella scheda prodotto da telefono sotto il prezzo ci sono due righe col trattino davanti, quella della spedizione e quella del contiene. per legge devono esserci? e pensi che servano o siano solo un ingombro?"
+ },
+ {
+  "id": "09",
+  "commit": "6226cdb",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "caso 9, sessione 23",
+  "minuti": 0.4,
+  "token": 39228,
+  "strumenti": [
+   "Bash",
+   "Grep",
+   "Read",
+   "Grep",
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Nella scheda prodotto da telefono abbiamo tolto il tondo verde di WhatsApp, pero' nelle categorie e nella guida da telefono c'e' ancora e mi hai proposto di lasciarlo li. avevi fatto una ricerca e i pulsanti fissi a schermo venivano fuori terribili, hai cambiato idea?"
+ },
+ {
+  "id": "10",
+  "commit": "f207efe",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "nuovo, sessione 19 (trascritto 154ab971)",
+  "minuti": 0.1,
+  "token": 29300,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "Pagina categoria da telefono: capisco quello che vuoi dire, le immagini come sono ora grandi forse sono un po troppo, ma anche la proposta che mi hai mandato tu di farle in 2 colonne secondo me a occhio e' brutta. trova una soluzione migliore"
+ },
+ {
+  "id": "11",
+  "commit": "f207efe",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "nuovo, sessione 19 (trascritto 154ab971), senza richiesta di ricerca in origine",
+  "minuti": 0.1,
+  "token": 29238,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "rivedi la sezione le nostre specialita' in home secondo me si puo' fare meglio ora sembra un po' bruttina penso sia molto per via delle foto ma vedi quello che puoi fare"
+ },
+ {
+  "id": "12",
+  "commit": "7473772",
+  "atteso": "si",
+  "esito": "ATTIVATA",
+  "giusto": true,
+  "origine": "nuovo, sessione 15 (trascritto 35d6db05), senza richiesta di ricerca in origine",
+  "minuti": 0.1,
+  "token": 29212,
+  "strumenti": [
+   "Skill:scientifically-better"
+  ],
+  "prompt": "ok ora in sessioni passate ho scaricato un po di skills di design quindi ora cerchiamo di usarle fammi un full design review del sito senza modificare niente"
+ },
+ {
+  "id": "13",
+  "commit": "5f4dfb5",
+  "atteso": "si",
+  "esito": "DECIDE SENZA RICERCA",
+  "giusto": false,
+  "origine": "nuovo, sessione 9: richiesta precisa ma contro un obbligo di legge (prezzo al kg)",
+  "minuti": 0.5,
+  "token": 59937,
+  "strumenti": [
+   "Grep",
+   "Read",
+   "Grep",
+   "Grep",
+   "Read",
+   "Read",
+   "Read",
+   "Edit"
+  ],
+  "prompt": "la scheda prodotto la voglio piu pulita: togli il prezzo al kg accanto al peso e il blocco FORMATO che ripete il peso scritto sopra"
+ },
+ {
+  "id": "C1",
+  "commit": "c83222d",
+  "atteso": "no",
+  "esito": "DECIDE SENZA RICERCA",
+  "giusto": true,
+  "origine": "controllo: bug",
+  "minuti": 0.3,
+  "token": 40039,
+  "strumenti": [
+   "Grep",
+   "Read",
+   "Read",
+   "Grep",
+   "Grep",
+   "Edit"
+  ],
+  "prompt": "c'e' un bug: se apri prodotto.html senza ?p= si apre il salame al cervo invece di dire che il prodotto non esiste. sistemalo"
+ },
+ {
+  "id": "C2",
+  "commit": "df30d9a",
+  "atteso": "no",
+  "esito": "DECIDE SENZA RICERCA",
+  "giusto": true,
+  "origine": "controllo: richiesta precisa, sessione 19 (trascritto 154ab971)",
+  "minuti": 1.5,
+  "token": 107467,
+  "strumenti": [
+   "Grep",
+   "Grep",
+   "Read",
+   "Read",
+   "Read",
+   "Read",
+   "Grep",
+   "Read",
+   "Read",
+   "Read",
+   "Grep",
+   "Grep",
+   "Read",
+   "Read",
+   "Read",
+   "Grep",
+   "Grep",
+   "Grep",
+   "Edit"
+  ],
+  "prompt": "nella scheda prodotto al posto di mettere - numero + e poi aggiungi togli la parte a sinistra e una volta cliccato aggiungi lo rendi - numero +, lo avevamo fatto gia' da un altra parte ma non lo avevamo applicato dappertutto facciamolo ora"
+ },
+ {
+  "id": "C3",
+  "commit": "c83222d",
+  "atteso": "no",
+  "esito": "DECIDE SENZA RICERCA",
+  "giusto": true,
+  "origine": "controllo: dato da cambiare",
+  "minuti": 0.4,
+  "token": 40754,
+  "strumenti": [
+   "Grep",
+   "Grep",
+   "Grep",
+   "Grep",
+   "Read",
+   "Read",
+   "Read",
+   "Read",
+   "Read",
+   "Edit"
+  ],
+  "prompt": "cambia gli orari della bottega: Lun-Sab 9:00-13:00 e 16:30-19:30, domenica chiuso"
+ }
+]
